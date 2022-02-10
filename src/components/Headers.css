@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 17rem;
+  }
+  .header h1{
+    color:hsl(0, 0%, 98%);
+  }
+  
+  .icon-white {
+    background-image: url('./../../images/icon-moon.svg');
+    background-repeat: no-repeat;
+    height: 2rem;
+    width: 2rem;
+    
+  }
+
+  .icon-dark {
+    background-image: url('./../../images/icon-moon.svg');
+    background-repeat: no-repeat;
+    height: 2rem;
+    width: 2rem;
+  }
