@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Todolist from './Todolist';
+ 
 
 export default function Todo() {
     const [edit, setEdit] = useState({
@@ -12,7 +13,7 @@ export default function Todo() {
         <div key={todo.id} onClick={() => completeTodo(todo.id)}>
             {todo.text} 
         </div>
-        <div>
+        <div className=''>
 
         </div>
     </div>

@@ -10,17 +10,19 @@
     color:hsl(0, 0%, 98%);
   }
   
-  .icon-white {
+  .img-light {
     background-image: url('./../../images/icon-moon.svg');
     background-repeat: no-repeat;
+    cursor: pointer;
     height: 2rem;
     width: 2rem;
     
   }
 
-  .icon-dark {
+  .img-dark {
     background-image: url('./../../images/icon-moon.svg');
     background-repeat: no-repeat;
+    cursor: pointer;
     height: 2rem;
     width: 2rem;
   }

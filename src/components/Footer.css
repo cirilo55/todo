@@ -1,4 +1,4 @@
-.footer{
+.footer-white{
     position: fixed;
     left: 0;
     bottom: 0;
@@ -6,6 +6,18 @@
     display: grid;
     place-items: center;
     color: black;
+    height: 5rem;
+    font-size: 10px;
+    
+}
+.footer-black{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    color: white;
     height: 5rem;
     font-size: 10px;
     

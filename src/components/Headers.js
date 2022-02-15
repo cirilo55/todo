@@ -4,11 +4,11 @@ import "./Headers.css";
 function header()
 {
     return (
-        <div className='header'>
+      <div className='header'>
           <h1>TODO</h1>
-          <div className="icon-white">
+        <div onClick={handleToggle} className={`icon-${isNight ? 'light': 'dark'}`}>
           </div>
-        </div>
+    </div>
     )
 }
 

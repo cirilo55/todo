@@ -1,44 +1,79 @@
 body{
-  --main-color: hsl(220, 98%, 61%);
-  --main-background-light: hsl(0, 0%, 98%);
-  --main-color-light: hsl(236, 33%, 92%);
-  --main-background-dark: hsl(280, 87%, 65%);
+--main-color: hsl(220, 98%, 61%);
+--main-background-light: hsl(0, 0%, 98%);
+--main-color-light: hsl(236, 33%, 92%);
+--main-background-dark: hsl(235, 21%, 11%);
+--Very-Dark-Blue: hsl(235, 21%, 11%);
+--Very-Dark-Desaturated-Blue: hsl(235, 24%, 19%);
+--Light-Grayish-Blue: hsl(234, 39%, 85%);
+--Light-Grayish-Blue-hover: hsl(236, 33%, 92%);
+--Dark-Grayish-Blue: hsl(234, 11%, 52%);
+--Very-Dark-Grayish-Blue: hsl(233, 14%, 35%);
+--Very-Dark-Grayish-Blue: hsl(237, 14%, 26%);
+font-family: 'Josefin Sans', sans-serif;
+color: var(--main-color-light);
+width: 100%; 
+height: 100%; 
+position: absolute; 
+top: 0; 
+left: 0;
+}
+input{
+  /* background-color: black; */
 }
 
-.todo-app {
-  background-size: cover;
-  font-family: 'Josefin Sans', sans-serif;
-  background-color: hsl(0, 0%, 98%);
-  height: 100vh  
-
-  
+.todo-app-light {
+  background-color: var(--Light-Grayish-Blue);
+  width: 100%; 
+  height: 100%; 
+  position: absolute; 
 }
+.todo-app-dark
+{
+  background-color: var(--Very-Dark-Blue);
+  width: 100%; 
+  height: 100%; 
+  position: absolute; 
+}
+
 .img-light{
   background-image: url('./../images/bg-desktop-light.jpg');
   z-index: 0;
   height: 40vh;
 
-  
-
-
+}
+.img-dark{
+  background-image: url('./../images/bg-desktop-dark.jpg');
+  z-index: 0;
+  height: 40vh;
 }
 
-/* .header{
+.header{
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 50px;
-  justify-content: space-between;
-  width: 25rem;
+  justify-content: center;
+  gap: 17rem;
 }
 .header h1{
-  color:white;
+  color:hsl(0, 0%, 98%);
 }
 
-.icon-white {
+.icon-light {
+  background-image: url('./../images/icon-moon.svg');
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+
+}
+
+.icon-dark {
   background-image: url('./../images/icon-sun.svg');
   background-repeat: no-repeat;
   height: 2rem;
   width: 2rem;
-
-} */
+  cursor: pointer;
+}
